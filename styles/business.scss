@@ -1,0 +1,30 @@
+.price-card__business {
+    position: relative;
+    overflow: hidden;
+
+    .label {
+        position: absolute;
+        width: 147.08px;
+        height: 25.01px;
+        background-color: #DC3F45;
+        transform: rotate(45deg);
+        text-transform: uppercase;
+        line-height: 25.01px;
+        font-weight: 700;
+        font-size: 14px;
+        right: -30px;
+        top: 30px;
+    }
+}
+
+.price-card__price-business {
+    background-color: $business-col;
+}
+
+.list-item__image-business {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
+.price-card__order-btn-business {
+    background-color: $business-col;
+}
