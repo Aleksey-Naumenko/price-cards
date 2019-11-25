@@ -28,11 +28,12 @@
     }
 
     &__description {
+        width: 327px;
+        margin: 0 auto;
         font-weight: 300;
         line-height: 18px;
         margin-top: 39px;
         margin-bottom: 42px;
-        padding: 0 26px;
     }
 
     &__order-btn {
@@ -42,7 +43,7 @@
         border: none;
         color: $text-col;
         text-transform: uppercase;
-        font-size: 14px;
+        // font-size: 14px;
         line-height: 17px;
         padding: 0;
         margin-bottom: 42px;
@@ -53,6 +54,7 @@
 
     &__main {
         font-weight: 700;
+        display: inline-block;
         font-size: 35px;
         line-height: 43px;
         margin-bottom: 0;
@@ -61,7 +63,7 @@
 
     &__subtitle {
         font-weight: 300;
-        font-size: 19px;
+        font-size: 20px;
         margin: 0;
         margin-bottom: 36px;
     }

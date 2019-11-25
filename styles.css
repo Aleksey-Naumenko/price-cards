@@ -26,11 +26,12 @@
   background-color: #5BB189;
 }
 .price-card__description {
+  width: 327px;
+  margin: 0 auto;
   font-weight: 300;
   line-height: 18px;
   margin-top: 39px;
   margin-bottom: 42px;
-  padding: 0 26px;
 }
 .price-card__order-btn {
   width: 154.63px;
@@ -39,7 +40,6 @@
   border: none;
   color: #fff;
   text-transform: uppercase;
-  font-size: 14px;
   line-height: 17px;
   padding: 0;
   margin-bottom: 42px;
@@ -47,6 +47,7 @@
 
 .card-title__main {
   font-weight: 700;
+  display: inline-block;
   font-size: 35px;
   line-height: 43px;
   margin-bottom: 0;
@@ -54,7 +55,7 @@
 }
 .card-title__subtitle {
   font-weight: 300;
-  font-size: 19px;
+  font-size: 20px;
   margin: 0;
   margin-bottom: 36px;
 }
@@ -144,6 +145,12 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #fff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
