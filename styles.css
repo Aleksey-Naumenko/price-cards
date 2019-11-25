@@ -1,5 +1,5 @@
 .price-card-container {
-  background-color: #141B1C;
+  background-color: #0000;
   width: 1440px;
   height: 1000px;
   padding: 129px 135px 101px;
@@ -26,7 +26,7 @@
   background-color: #5BB189;
 }
 .price-card__description {
-  width: 327px;
+  width: 328px;
   margin: 0 auto;
   font-weight: 300;
   line-height: 18px;
@@ -34,7 +34,7 @@
   margin-bottom: 42px;
 }
 .price-card__order-btn {
-  width: 154.63px;
+  width: 155px;
   height: 40px;
   border-radius: 20px;
   border: none;

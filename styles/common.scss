@@ -1,5 +1,5 @@
 .price-card-container {
-    background-color: #141B1C;
+    background-color: #0000;
     width: 1440px;
     height: 1000px;
     padding: 129px 135px 101px;
@@ -28,7 +28,7 @@
     }
 
     &__description {
-        width: 327px;
+        width: 328px;
         margin: 0 auto;
         font-weight: 300;
         line-height: 18px;
@@ -37,13 +37,12 @@
     }
 
     &__order-btn {
-        width: 154.63px;
+        width: 155px;
         height: 40px;
         border-radius: 20px;
         border: none;
         color: $text-col;
         text-transform: uppercase;
-        // font-size: 14px;
         line-height: 17px;
         padding: 0;
         margin-bottom: 42px;
